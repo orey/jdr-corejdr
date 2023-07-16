@@ -10,7 +10,7 @@ fi
 git add *
 message=$@
 git commit -a -m "$message"
-git push origin master
+git push origin maain
 
 echo "Done"
 
